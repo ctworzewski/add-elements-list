@@ -16,7 +16,7 @@ const addList = function () {
     }
 
     // console.log(liElement);
-    document.body.appendChild(liElement);
+    ulList.appendChild(liElement);
     numberLi += 2;
 }
 btn.addEventListener('click', addList);
