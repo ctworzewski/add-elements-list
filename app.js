@@ -12,7 +12,7 @@ const addList = function () {
 
     if ((numberLi % 3) == 0) {
         // liElement.style.fontSize = '20px';
-         liElement.classList.add('big');
+        liElement.classList.add('big');
     }
 
     // console.log(liElement);
